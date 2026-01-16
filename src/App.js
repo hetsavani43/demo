@@ -41,6 +41,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className='bg-primary text-white p-3 text-center'>Formik Form Validation</h1>
       <div className="container mt-5">
         <form className="row g-3" onSubmit={handleSubmit}>
           <div className="col-md-6">
